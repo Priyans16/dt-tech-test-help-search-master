@@ -39,16 +39,6 @@ export class Pagination extends React.Component {
     }
 
     /**
-     * This method sends provided page number to the 
-     * parent Search component
-     * 
-     * @param {*} pageNo - data specific with page number
-     */
-    setDataWithPageNumber = (pageNo) => {
-        this.props.setPageNumber(pageNo);
-    }
-
-    /**
      * This method segregates the resultant data into array of arrays
      * w.r.t maximum number of pages and page size
      * whenever searched data array gets updated
@@ -66,6 +56,16 @@ export class Pagination extends React.Component {
                 result.push(array);
             }
         this.setState({ sortedData: result });
+    }
+
+    /**
+     * This method sends provided page number to the 
+     * parent Search component
+     * 
+     * @param {*} pageNo - data specific with page number
+     */
+     setDataWithPageNumber = (pageNo) => {
+        this.props.setPageNumber(pageNo);
     }
 
     render = () => (

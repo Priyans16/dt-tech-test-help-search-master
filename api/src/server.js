@@ -28,6 +28,7 @@ app.get("/search", async (req, res) => {
 
 /**
  * search with Pagination api
+ * 
  * Considering page size as 10 as per requirement
  */
 app.get("/search/:page", async (req, res) => {

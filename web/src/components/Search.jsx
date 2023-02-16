@@ -33,7 +33,8 @@ export function Search() {
      * This method searches the string provided in 
      * the input of search box
      * 
-     * @param {*} page - (optional) page number to be searched in the result
+     * @param {*} page - (optional) page number to be 
+     * searched in the result
      */
     const searchItem = (page = null) => {
         if (page === null) {
@@ -78,7 +79,9 @@ export function Search() {
         <>
             <input type="text" key="search" value={searchEle} onChange={(e) => handleData('search', e)} />
             <button onClick={() => searchItem()}>Search</button>
-            {/* Same Pagination Component has been re-used for both the display sections with some difference in props
+            {/* Same Pagination Component has been re-used 
+                for both the display sections with some difference 
+                in props
             - Internal Pagination and Pagination With API*/}
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <div style={{ marginRight: '25px' }}>
