@@ -1,6 +1,21 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
+/** 
+ * 
+ * Developed without taking support of browser/internet
+ * anywhere as suggested
+ * 
+ * Found that functional component doesn't update state 
+ * variable well in this scenario with personal experience
+ * 
+ * Therefore, continued with class component as I need to use 
+ * both componentDidMount and componentDidUpdate separately unlike
+ * useEffect Hook in functional component 
+ * 
+ * !!Correct me if I'm wrong and is much appreciated!!
+ * 
+ * */
 export class Pagination extends React.Component {
     state = {
         page: 0,
