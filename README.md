@@ -1,3 +1,5 @@
+## /* Made temporarily public view for a week or two for evaluation*/
+
 # Tech Test: Help Search 🔍
 
 ## Technology Used
