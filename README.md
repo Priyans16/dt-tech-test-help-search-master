@@ -1,5 +1,14 @@
 ## /* Made temporarily public view for a week or two for evaluation*/
 
+## Requirements Implemented: 
+
+1. Basic Search
+2. Paginaton
+3. Paginatin API
+
+Documentation
+
+
 # Tech Test: Help Search 🔍
 
 ## Technology Used
